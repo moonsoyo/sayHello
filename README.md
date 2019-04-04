@@ -25,6 +25,6 @@ You can also delete the tasks that you have completed, by clickingg on the butto
 
 ![Screen Shot 2019-04-04 at 11 02 46 PM](https://user-images.githubusercontent.com/41453955/55562778-9c5e0e80-572f-11e9-9ecb-9fbea21f54ed.png)
 
-Also, as you can see, the background image will change when you refresh the site. Oh and don't worry about losing your to-do list when you refresh the site. You to-do list is saved in a local storage and will not disappear!
+Also, as you can see, the background image will change when you refresh the site. Oh and don't worry about losing your to-do list when you refresh the site. Your to-do list is saved in a local storage and will not disappear!
 
 
