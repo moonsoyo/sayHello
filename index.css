@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  border-style: none;
+}
+
+::placeholder{ 
+    color: #4B2132; 
+} 
+
+body{
+	background-color: #F7DFF8;
+	font-family: 'Love Ya Like A Sister', cursive;
+	text-align: center;
+}
+.js-clock{
+	color: white;
+	font-size: 70px;
+}
+
+.js-greetings{
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	top: 30%;
+	left: 36%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name-field{
+	border-width: 7px;
+	border-color: #4B2132;
+    font-family: 'Indie Flower', cursive;
+    background-color: #F2C3F4;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    color: #4B2132;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    border-radius: 7px;
+}
+
+.js-toDoList{
+	text-align: left;
+}
+
+ul{
+	list-style-type: square;
+	width: 250px;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    list-style-position: inside;
+    color: #4B2132;
+}
+
+.todo-field{
+	border-width: 3px;
+	border-color: #4B2132;
+	font-family: 'Indie Flower', cursive;
+    background-color: #F2C3F4;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 260px;
+    color: #4B2132;
+    border-radius: 7px;
+}
+
+.form,
+.greetings{
+	display: none;
+}
+
+.displayed{
+	display: block;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to {
+		opacity: 0.7;
+	}
+}
+
+.backgroundImg{
+	position: absolute;
+	opacity: 0.7;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	animation: fadeIn 0.5s linear;
+}
+
+.js-weather{
+	position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    font-size: 20px;
+    color: #4B2132;
+}
